@@ -1,3 +1,3 @@
 ### Java_random
-*[A small random generator]
-*Plan to add more futures
+This is a small random generator. Plans to add more futures.
+
