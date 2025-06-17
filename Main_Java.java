@@ -8,23 +8,14 @@ public class Main_Java extends Scann_User {
 		
 		if (Scann_this().matches("yes")) {
 			System.out.println("This is only a terminal print with the UUID number");
-			System.out.println("*********" + "<----->" + "***********");
+			System.out.println("***********************" + "<----->" + "***********************");
 			System.out.println(UUID.randomUUID());
-			System.out.println("*********" + "<----->" + "***********");
-			
-			
-			
-			
+			System.out.println("***********************" + "<----->" + "***********************");		
 		}
 		else {
-		
-		System.out.println("You must use argument limited to 6 digits for the get_super_random(your number here)");
+		System.out.println("You must use argument limited to 6 digits for the get_super_random(your number here) and will return double random number");
 		Random_Generator.get_super_random(200);
-		}
-		
-		
-		
-		
+		}		
 	
 	}
 
