@@ -7,7 +7,11 @@ public class Main_Java extends Scann_User {
 		
 		
 		if (Scann_this().matches("yes")) {
+			System.out.println("This is only a terminal print with the UUID number");
+			System.out.println("*********" + "<----->" + "***********");
 			System.out.println(UUID.randomUUID());
+			System.out.println("*********" + "<----->" + "***********");
+			
 			
 			
 			
