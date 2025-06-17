@@ -1,9 +1,6 @@
 package Inheritance;
-
 public class Random_Generator {
-
 	static double ran = Math.random();
-	
 	public static double get_super_random(double db5) {
 		
 		double result = ran*ran*10000/ db5;
@@ -15,6 +12,5 @@ public class Random_Generator {
 		
 		System.out.print(result);
 		return result;
-		}			
-		
+		}
 	}
